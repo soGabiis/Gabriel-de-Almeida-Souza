@@ -1,0 +1,181 @@
+    body {
+        color:antiquewhite;
+        background-color:gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type:none ;
+        padding: 16px;
+    }
+
+    a {
+        color:antiquewhite;
+        text-decoration: none;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        border: 5px solid black;
+    }
+
+    .style {
+        text-align: center;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer p {
+        margin-top: 2px;
+    }
+
+    .container {
+        padding: 0px 50px;
+    }
+
+    nav a:hover{
+        color: aqua;
+    }
+
+    h1 { /* Titulo H1 centralizado*/
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 { /* Titulo H2 centralizado*/ 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .organizacao {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .organizacao ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .organizacao li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 8px;
+    }
+
+    .organizacao li::before {
+        content: "-";
+        position: absolute;
+        left: 0;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .contatos img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contatos {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contatos a {
+        margin: 100px;
+        text-align: center;
+        justify-content: space-between;
+        display: center;
+    }
+
+    .contatos b {
+        margin-top: 2px;
+    }
+
+    .tituloContato {
+        margin: 0;
+        padding: 0;
+    }
+
+    section p {
+        max-width: 800px;     
+        margin: 0 auto;       
+        text-align: left;      
+        line-height: 1.6;      
+        padding: 0 10px;       
+    }
+
+    body {  /* Animação simples para a página*/
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+    }
+
+    @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+    }
+
+.formulario-contato {      /*Estilizando o Formulario que está na pagina contato*/
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #3d4041;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.formulario-contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.formulario-contato button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+    background-color: #005fa3;
+}
